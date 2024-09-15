@@ -1,3 +1,6 @@
+import Footer from "@/components/shared/Footer";
+import Header from "@/components/shared/Header";
+import Navbar from "@/components/shared/Navbar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -63,7 +66,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={helvetica_neue.className}>{children}</body>
+      <body className={helvetica_neue.className}>
+        <Header />
+        <Navbar />
+        <main className="min-h-dvh">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
