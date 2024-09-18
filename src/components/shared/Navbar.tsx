@@ -44,7 +44,7 @@ const Navbar = () => {
                           Dcos
                       </Link>
                       <Link
-                          href="https://dao.voa.community/communities/"
+                          href=https://dao.voa.community/communities"
                           className="inline-block rounded-[0.625rem] bg-accent py-3 px-7 text-white text-sm"
                       >
                           Start your Community
