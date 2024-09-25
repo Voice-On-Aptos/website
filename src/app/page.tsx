@@ -23,7 +23,7 @@ export default function Page() {
             decentralized communities.
           </p>
           <Link
-            href="/explore"
+            href="https://dao.voa.community/"
             className="inline-block rounded-[0.625rem] w-full lg:w-fit bg-accent py-3 px-7 text-white text-sm"
           >
             Explore Communities
@@ -93,13 +93,13 @@ export default function Page() {
             </h3>
             <span className="flex flex-col items-center w-full max-w-[33.0625rem] whitespace-nowrap mx-auto lg:flex-row lg:space-y-0 lg:space-x-4 space-y-4">
               <Link
-                href="/community/new"
+                href="https://dao.voa.community/communities"
                 className="block rounded-[0.625rem] w-full flex-1 text-accent py-3 px-7 bg-white text-sm"
               >
                 Join a Decentralized Community
               </Link>
               <Link
-                href="/community/new"
+                href="https://dao.voa.community/communities/new"
                 className="block rounded-[0.625rem] w-full flex-1 bg-accent py-3 px-7 lg:px-10 text-white text-sm"
               >
                 Create a Community

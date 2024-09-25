@@ -44,7 +44,7 @@ const Navbar = () => {
               Blog
             </Link>
             <Link
-              href="/community/new"
+              href="https://dao.voa.community/community/new"
               className="inline-block rounded-[0.625rem] bg-accent py-3 px-7 text-white text-sm"
             >
               Start your Community
