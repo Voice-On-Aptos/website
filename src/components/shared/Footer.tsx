@@ -3,31 +3,31 @@ import Link from "next/link";
 import React from "react";
 
 const communities = [
-    {
-        href: "https://voice-on-aptos.gitbook.io/docs",
-        label: "Docs",
-    },
-    // {
-    //     href: "/",
-    //     label: "Discord",
-    // },
-    {
-        href: "https://x.com/VoiceonAptos",
-        label: "Twitter",
-    },
-    {
-        href: "https://t.me/VoiceonAptos",
-        label: "Telegram",
-    },
+  {
+    href: "https://voice-on-aptos.gitbook.io/docs",
+    label: "Docs",
+  },
+  // {
+  //     href: "/",
+  //     label: "Discord",
+  // },
+  {
+    href: "https://x.com/VoiceonAptos",
+    label: "Twitter",
+  },
+  {
+    href: "https://t.me/VoiceonAptos",
+    label: "Telegram",
+  },
 ];
 
 const other_links = [
   {
-    href: "/",
+    href: "#",
     label: "Privacy",
   },
   {
-    href: "/",
+    href: "#",
     label: "Terms",
   },
 ];
