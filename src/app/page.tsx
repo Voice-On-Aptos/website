@@ -23,7 +23,7 @@ export default function Page() {
             decentralized communities.
           </p>
           <Link
-            href="https://dao.voa.community/"
+            href="https://dao.voa.community/communitites"
             className="inline-block rounded-[0.625rem] w-full lg:w-fit bg-accent py-3 px-7 text-white text-sm"
           >
             Explore Communities
