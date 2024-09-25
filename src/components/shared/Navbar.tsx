@@ -38,13 +38,13 @@ const Navbar = () => {
             )}
           >
             <Link
-              href="#"
+              href="https://voice-on-aptos.gitbook.io/docs"
               className="text-wood-smoke hover:text-accent text-sm"
             >
-              Blog
+              Docs
             </Link>
             <Link
-              href="https://dao.voa.community/community/new"
+              href="https://dao.voa.community/communities"
               className="inline-block rounded-[0.625rem] bg-accent py-3 px-7 text-white text-sm"
             >
               Start your Community
