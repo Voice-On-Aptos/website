@@ -54,19 +54,19 @@ export default function Page() {
                   <Card
                       title="Voice Proportional to Investment"
                       description="Users who own tokens in a protocol or dApp have a voice proportional to their investment, enabling them to shape the direction and decisions of the projects they care about."
-                      href="https://voice-on-aptos.gitbook.io/docs"
+                      href="https://voice-on-aptos.gitbook.io/docs/knowledge-base/key-features-of-voa"
                       icon={<VOAIcon />}
                   />
                   <Card
                       title="Influence Through Commitment"
                       description="Your influence in a community is tied to your commitment and investment, and you can lend your VOICE tokens to others who believe in their perspective, amplifying their influence."
-                      href="https://voice-on-aptos.gitbook.io/docs"
+                      href="https://voice-on-aptos.gitbook.io/docs/knowledge-base/key-features-of-voa"
                       icon={<TickCircleIcon />}
                   />
                   <Card
                       title="Amplify Voices, Shape Decisions"
                       description="By lending your VOICE tokens to amplify other voices, you can ensure that every decision reflects the community's true desires."
-                      href="https://voice-on-aptos.gitbook.io/docs"
+                      href="https://voice-on-aptos.gitbook.io/docs/knowledge-base/key-features-of-voa"
                       icon={<ArrowTargetIcon />}
                   />
               </div>

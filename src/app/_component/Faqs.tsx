@@ -7,24 +7,22 @@ import {
 import React from "react";
 
 const contents = [
-  {
-    question: "What are VOICE tokens?",
-    answer:
-      "Voice tokens are digital assets that can be used to purchase and trade digital assets.",
-  },
-  {
-    question: "How do I get VOICE tokens?",
-    answer:
-      "VOICE tokens are gotten from swapping other tokens to VOICE tokens.",
-  },
-  {
-    question: "How to Create a Community?",
-    answer: "",
-  },
-  {
-    question: "How do I earn on VOA?",
-    answer: "",
-  },
+    {
+        question: "What is VOA?",
+        answer: "VOA is a decentralized, community-focused platform for projects on the Aptos blockchain.",
+    },
+    {
+        question: "How do I join a community?",
+        answer: "Browse the available communities on VOA, and stake the project tokens to get VOICE. Once you have VOICE, you can join the community and start participating.",
+    },
+    {
+        question: "What are VOICE tokens?",
+        answer: "VOICE tokens are the utility tokens needed to participate in community activities like posting, voting, and making proposals.",
+    },
+    {
+        question: "Can I swap my VOICE back to project tokens?",
+        answer: "Yes, you can unstake your VOICE and swap it back, but a 24-hour cooldown period is required.",
+    },
 ];
 
 const Faqs = () => {
