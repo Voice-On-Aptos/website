@@ -3,31 +3,31 @@ import Link from "next/link";
 import React from "react";
 
 const communities = [
-    {
-        href: "https://voice-on-aptos.gitbook.io/docs",
-        label: "Docs",
-    },
-    // {
-    //     href: "/",
-    //     label: "Discord",
-    // },
-    {
-        href: "https://x.com/VoiceonAptos",
-        label: "Twitter",
-    },
-    {
-        href: "https://t.me/VoiceonAptos",
-        label: "Telegram",
-    },
+  {
+    href: "https://voice-on-aptos.gitbook.io/docs",
+    label: "Docs",
+  },
+  // {
+  //     href: "/",
+  //     label: "Discord",
+  // },
+  {
+    href: "https://x.com/VoiceonAptos",
+    label: "Twitter",
+  },
+  {
+    href: "https://t.me/VoiceonAptos",
+    label: "Telegram",
+  },
 ];
 
 const other_links = [
   {
-    href: "/",
+    href: "#",
     label: "Privacy",
   },
   {
-    href: "/",
+    href: "#",
     label: "Terms",
   },
 ];
@@ -40,7 +40,6 @@ const Footer = () => {
         <div className="flex flex-col lg:flex-row space-y-[2.45875rem] lg:items-start lg:space-y-0 lg:justify-between">
           <Link href="/">
             <Image
-              priority
               src="/images/logo-white.png"
               alt="Voice on Aptos"
               width={242}
@@ -52,7 +51,6 @@ const Footer = () => {
               alt="Voice on Aptos"
               width={356}
               height={48.04}
-              priority
               className="hidden xl:block"
             />
           </Link>
